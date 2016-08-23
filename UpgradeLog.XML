@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="northwindoledb">
+</Property><Property Name="Solution File" Value="D:\SQLCE_v3.5_NorthwindOleDb_Release1.0\northwindoledb\northwindoledb.sln">
+</Property><Property Name="Date" Value="lunes, 17 de mayo de 2010">
+</Property><Property Name="Time" Value="16:06">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="northwindoledb.sln" Description="File successfully backed up as D:\SQLCE_v3.5_NorthwindOleDb_Release1.0\northwindoledb\northwindoledb.sln.old">
+</Event><Event ErrorLevel="0" Project="northwindoledb" Source="northwindoledb.vcproj" Description="Converting project file 'D:\SQLCE_v3.5_NorthwindOleDb_Release1.0\northwindoledb\northwindoledb.vcproj'.">
+</Event><Event ErrorLevel="1" Project="northwindoledb" Source="northwindoledb.vcproj" Description="Failed to upgrade platform 'Pocket PC 2003 (ARMV4)'. Please make sure you have it installed under '%vctargetspath%\platforms\Pocket PC 2003 (ARMV4)'">
+</Event><Event ErrorLevel="1" Project="northwindoledb" Source="northwindoledb.vcproj" Description="Failed to upgrade platform 'Windows Mobile 5.0 Pocket PC SDK (ARMV4I)'. Please make sure you have it installed under '%vctargetspath%\platforms\Windows Mobile 5.0 Pocket PC SDK (ARMV4I)'">
+</Event><Event ErrorLevel="1" Project="northwindoledb" Source="northwindoledb.vcproj" Description="Failed to upgrade platform 'Windows Mobile 6 Professional SDK (ARMV4I)'. Please make sure you have it installed under '%vctargetspath%\platforms\Windows Mobile 6 Professional SDK (ARMV4I)'">
+</Event><Event ErrorLevel="1" Project="northwindoledb" Source="northwindoledb.vcproj" Description="Failed to upgrade 'Debug|Pocket PC 2003 (ARMV4)'. Please make sure you have the corresponding platform installed under '%vctargetspath%\platforms\Pocket PC 2003 (ARMV4)'">
+</Event><Event ErrorLevel="1" Project="D:\SQLCE_v3.5_NorthwindOleDb_Release1.0\northwindoledb\northwindoledb.vcproj" Source="" Description="Cannot load the project due to a corrupt project file.">
+</Event><Event ErrorLevel="2" Project="northwindoledb" Source="northwindoledb.vcproj" Description="The project configuration dimension name/value &quot;(Platform, Win32)&quot; was not found in the project manifest.">
+</Event><Event ErrorLevel="2" Project="D:\SQLCE_v3.5_NorthwindOleDb_Release1.0\northwindoledb\northwindoledb.vcproj" Source="" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: D:\SQLCE_v3.5_NorthwindOleDb_Release1.0\northwindoledb\northwindoledb.vcproj&#xA;Line: 34&#xA;Column: 5&#xA;Error Message:&#xA;Error del sistema: -2147154677.&#xA;&#xA;The file 'D:\SQLCE_v3.5_NorthwindOleDb_Release1.0\northwindoledb\northwindoledb.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="northwindoledb" Source="northwindoledb.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="northwindoledb" Source="northwindoledb.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="2" Project="" Source="northwindoledb.sln" Description="Solution file 'D:\SQLCE_v3.5_NorthwindOleDb_Release1.0\northwindoledb\northwindoledb.sln' cannot be converted because it is read-only on disk. To convert the solution, change the permissions on the solution file to allow modification and re-open it.">
+</Event><Event ErrorLevel="3" Project="" Source="northwindoledb.sln" Description="Not Converted">
+</Event></UpgradeLog>

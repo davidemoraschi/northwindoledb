@@ -1,0 +1,12 @@
+﻿Build started 17/05/2010 16:08:37.
+     1>Project "I:\Visual Studio 2010\Projects\northwindoledb\northwindoledb.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Template\northwindoledb.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       FinalizeBuildStatus:
+         Deleting file "Template\northwindoledb.unsuccessfulbuild".
+         Touching "Template\northwindoledb.lastbuildstate".
+     1>Done Building Project "I:\Visual Studio 2010\Projects\northwindoledb\northwindoledb.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.90

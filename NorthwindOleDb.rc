@@ -1,0 +1,192 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_NORTHWINDOLEDB      ICON    DISCARDABLE     "NorthwindOleDb.ICO"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDM_MENU SHMENUBAR MOVEABLE PURE 
+BEGIN
+    IDM_MENU, 1,
+    I_IMAGENONE, ID_FILE, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_FILE, 0, 0,
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menubar
+//
+
+IDM_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Exit",                        ID_FILE_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_EMPLOYEES DIALOG DISCARDABLE  0, 0, 160, 166
+STYLE WS_POPUP | WS_CAPTION
+FONT 8, "Tahoma"
+BEGIN
+    LTEXT           "Name:",IDC_STATIC_NAME,7,7,24,10
+    COMBOBOX        IDC_COMBO_NAME,40,7,113,70,CBS_DROPDOWN | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Address:",IDC_STATIC_ADDRESS,7,23,28,10
+    EDITTEXT        IDC_EDIT_ADDRESS,40,23,113,21,ES_MULTILINE | 
+                    ES_WANTRETURN
+    EDITTEXT        IDC_EDIT_CITY,40,47,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REGION,82,47,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_POSTAL_CODE,109,47,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HOME_PHONE,90,85,63,12,ES_AUTOHSCROLL
+    LTEXT           "Phone:",IDC_STATIC_HOME_PHONE,89,77,31,10
+    LTEXT           "Country:",IDC_STATIC_COUNTRY,7,62,31,10
+    EDITTEXT        IDC_EDIT_COUNTRY,40,61,113,12,ES_AUTOHSCROLL
+    LTEXT           "Employee ID:",IDC_STATIC_HOME_PHONE2,89,100,51,10
+    EDITTEXT        IDC_EDIT_EMPLOYEE_ID,90,111,63,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    PUSHBUTTON      "Exit",IDC_BUTTON_EXIT,90,143,63,16
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE,90,125,63,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_NORTHWINDOLEDB ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            IDM_HELP_ABOUT,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            IDOK,                   VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_EMPLOYEES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PHOTO
+//
+
+IDR_PHOTO_SUYAMA        PHOTO   DISCARDABLE     "Photos\\Suyama.BMP"
+IDR_PHOTO_BUCHANAN      PHOTO   DISCARDABLE     "Photos\\buchanan.BMP"
+IDR_PHOTO_CALLAHAN      PHOTO   DISCARDABLE     "Photos\\Callahan.bmp"
+IDR_PHOTO_DAVOLIO       PHOTO   DISCARDABLE     "Photos\\davolio.BMP"
+IDR_PHOTO_DODSWORTH     PHOTO   DISCARDABLE     "Photos\\Dodsworth.BMP"
+IDR_PHOTO_FULLER        PHOTO   DISCARDABLE     "Photos\\fuller.BMP"
+IDR_PHOTO_KING          PHOTO   DISCARDABLE     "Photos\\King.BMP"
+IDR_PHOTO_LEVERLING     PHOTO   DISCARDABLE     "Photos\\leverling.bmp"
+IDR_PHOTO_PEACOCK       PHOTO   DISCARDABLE     "Photos\\peacock.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "Northwind Oledb Sample"
+    IDC_NORTHWINDOLEDB      "NORTHWINDOLEDB"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_FILE            "File"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
